@@ -16,4 +16,4 @@ R 'plumber' package comes with Swagger UI support. One can open on browser the l
 
 ```http://127.0.0.1:9000/__docs__/```
 
-and try POST with request different values of iris flowers properties: Sepal.Length, Sepal.Width, Petal.Length, Petal.Width. Default values for this parameters in API are 0. For some cases one can get response as NA, since the model (linear regression) is choosen very badly. But again it was done for simplicity.
+and try POST API request with different values of iris flowers properties: Sepal.Length, Sepal.Width, Petal.Length, Petal.Width. Default values for this parameters in API are 0. For some cases one can get response value as NA, since the model (linear regression) is choosen very badly. But again it was done for simplicity and on purpose.
