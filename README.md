@@ -10,7 +10,7 @@ To build Docker image one can run in root folder of this repository, i.e. where 
 
 And then to run a docker conatainer just run this:
 
-docker run -p 9000:9000 iris
+```docker run -p 9000:9000 iris```
 
 R 'plumber' package comes with Swagger UI support. One can open on browser the link 
 
